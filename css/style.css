@@ -1,6 +1,7 @@
 @import 'fonts.css';
 
 body{
+    font-family: 'Open Sans';
     background: gray;
 }
 
@@ -27,4 +28,64 @@ ul, li{
 .menu__item a:hover{
     text-decoration: none;
     color: #cecece;
+}
+
+/* шапка */
+.header > div {
+    text-align: center;
+    color: #fff;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url('../img/header.png');
+}
+.header__title{
+    font-size: 55px;
+}
+.header__text{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.button{
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+.button_empty{
+    background: transparent;
+    border: 2px solid white;
+}
+.button_full{
+    background: #009966;
+    border: 2px solid #009966;
+}
+.button_empty:hover,
+.button_full:hover{
+    border: 2px solid #0a7450;
+    background: #0a7450;
+}
+
+/* о нас */
+.about{
+    padding-top: 120px;
+    padding-bottom: 125px;
+    color: #000;
+    background: white;
+    text-align: center;
+}
+.about__title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text{
+    color: #333333;
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+.about__h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
 }
