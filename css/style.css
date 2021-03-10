@@ -240,7 +240,7 @@ div[filter]:hover .text {
   font-size: 20px;
   font-family: "Open Sans Semibold";
 }
-.team p{
+.team p {
   font-size: 15px;
   margin-bottom: 30px;
 }
@@ -251,16 +251,16 @@ div[filter]:hover .text {
 .icons a i {
   transition: 0.3s;
 }
-.icons i:nth-child(1){
+.icons i:nth-child(1) {
   color: #f0f1f1;
 }
-.icons i:nth-child(2){
+.icons i:nth-child(2) {
   color: #00897b;
 }
-.icons a:hover i:nth-child(1){
+.icons a:hover i:nth-child(1) {
   color: #3949ab;
 }
-.icons a:hover i:nth-child(2){
+.icons a:hover i:nth-child(2) {
   color: #fff;
 }
 .team img {
@@ -284,7 +284,62 @@ div[filter]:hover .text {
   height: 15px;
   width: 15px;
 }
-.dots-style li[class = "slick-active"] button {
+.dots-style li[class="slick-active"] button {
   background: #3949ab;
   outline: none;
+}
+
+/* Блог */
+.left > div:first-child {
+  order: 1;
+}
+.left > div:last-child {
+  order: 2;
+}
+.right > div:first-child {
+  order: 2;
+}
+.right > div:last-child {
+  order: 1;
+}
+.blog {
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.blog a {
+  color: #00897b;
+  font-size: 25px;
+  font-family: "Open Sans Semibold";
+}
+.blog div {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.blog span {
+  font-size: 17px;
+  font-family: "Open Sans Semibold";
+  margin-right: 35px;
+}
+.blog i {
+  margin-right: 15px;
+}
+.blog p {
+  font-size: 15px;
+}
+.left, .right {
+  margin: 0 -40px;
+}
+.button_blog {
+  height: 70px;
+  width: 220px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  margin-top: 120px;
+  border: none;
+  font-weight: bold;
+  background: #00897b;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
