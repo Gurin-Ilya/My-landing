@@ -38,13 +38,20 @@ $(document).ready(function () {
              slidesToShow: 2,
              slidesToScroll: 2,
            }
-         }
+         },
+         {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
       ]
     });
    // Выпадающее меню
    $('.menu-icon').click(function(){
       $('nav').slideToggle(500);
-      $('ul').css({
+      $('ul.menu').css({
          'display':'flex', 'flex-direction':'column'
       })
       if($('.menu-icon').html()=='<i class="fas fa-bars"></i>'){
